@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login/01_NavigateToURL","testCaseId":"Test Cases/Login/01_NavigateToURL"}
+{"testCaseName":"Test Cases/Login/02_EnterUserCrential","testCaseId":"Test Cases/Login/02_EnterUserCrential"}
+{"testCaseName":"Test Cases/Login/03_Click On Login","testCaseId":"Test Cases/Login/03_Click On Login"}
+{"testCaseName":"Test Cases/Login/04_VerifyLoginSuccessfull","testCaseId":"Test Cases/Login/04_VerifyLoginSuccessfull"}
+{"testCaseName":"Test Cases/Login/05_Logout","testCaseId":"Test Cases/Login/05_Logout"}

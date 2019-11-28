@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="OrangeHRMSmokeTest" time="20" tests="1" failures="1" errors="0">
+    <testsuite name="OrangeHRMSmokeTest" tests="1" failures="1" errors="0" time="20" timestamp="2019-11-28 19:29:40" hostname="Kannan - DESKTOP-7CAFB21" id="Test Suites/OrangeHRMSmokeTest">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="C:\\Users\\Kannan\\Katalon Studio\\TestOrangeHRM\\Reports\\20191128_192936\\OrangeHRMSmokeTest\\20191128_192936"/>
+            <property name="logFiles" value="C:\\Users\\Kannan\\Katalon Studio\\TestOrangeHRM\\Reports\\20191128_192936\\OrangeHRMSmokeTest\\20191128_192936\\execution0.log"/>
+            <property name="attachments" value="C:\\Users\\Kannan\\Katalon Studio\\TestOrangeHRM\\Reports\\20191128_192936\\OrangeHRMSmokeTest\\20191128_192936\\1574949600987.png"/>
+            <property name="hostName" value="Kannan - DESKTOP-7CAFB21"/>
+            <property name="os" value="Windows 10 64bit"/>
+            <property name="katalonVersion" value="6.3.3.11"/>
+            <property name="browser" value="Firefox 70.0"/>
+            <property name="hostAddress" value="192.168.0.2"/>
+            <property name="sessionId" value="fccb7c20-f110-4263-a400-4601f65b2341"/>
+            <property name="seleniumVersion" value="3.141.59"/>
+            <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+            <property name="platform" value="Windows 10"/>
+        </properties>
+        <testcase name="Test Cases/Login/LoginPage" classname="Test Cases/Login/LoginPage" status="PASSED">
+            <system-out>2019-11-28 19:29:41 - [TEST_CASE][PASSED] - Test Cases/Login/LoginPage: Test Cases/Login/LoginPage&#xD;
+&#xD;
+2019-11-28 19:29:41 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'&#xD;
+&#xD;
+2019-11-28 19:29:42 - [MESSAGE][INFO] - Starting 'Firefox' driver&#xD;
+&#xD;
+2019-11-28 19:29:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds&#xD;
+&#xD;
+2019-11-28 19:29:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'&#xD;
+&#xD;
+2019-11-28 19:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/UserName"), "Admin"): Text 'Admin' is set on object 'Object Repository/Login/UserName'&#xD;
+&#xD;
+2019-11-28 19:29:54 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Login/UserName'&#xD;
+&#xD;
+2019-11-28 19:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Login/UserPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Login/UserPassword'&#xD;
+&#xD;
+2019-11-28 19:29:54 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Login/UserPassword'&#xD;
+&#xD;
+2019-11-28 19:29:54 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on&#xD;
+&#xD;
+2019-11-28 19:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Login/Logout" classname="Test Cases/Login/Logout" status="FAILED">
+            <failure type="FAILED" message="Test Cases/Login/Logout FAILED.&#xA;Reason:&#xA;com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout'&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;&#xA;&#x9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;&#xA;&#x9;at Logout.run(Logout:20)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;&#xA;&#x9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;&#xA;&#x9;at TempTestSuite1574949576861.run(TempTestSuite1574949576861.groovy:35)&#xD;&#xA;Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;a href=&quot;/index.php/auth/logout&quot;&gt; could not be scrolled into view&#xA;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xA;System info: host: 'DESKTOP-7CAFB21', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#xA;Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver&#xA;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14876, moz:profile: C:\Users\Kannan\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#xA;Session ID: fccb7c20-f110-4263-a400-4601f65b2341&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;&#xA;&#x9;at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;&#xA;&#x9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;&#xA;&#x9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;&#xA;&#x9;... 19 more&#xD;&#xA;"/>
+            <system-out>2019-11-28 19:29:57 - [TEST_CASE][FAILED] - Test Cases/Login/Logout: Test Cases/Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;
+	at Logout.run(Logout:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1574949576861.run(TempTestSuite1574949576861.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;a href="/index.php/auth/logout"&gt; could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-7CAFB21', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14876, moz:profile: C:\Users\Kannan\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fccb7c20-f110-4263-a400-4601f65b2341&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more&#xD;
+&#xD;
+&#xD;
+2019-11-28 19:29:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_OrangeHRM/a_Welcome Admin")): Object: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' is clicked on&#xD;
+&#xD;
+2019-11-28 19:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' is clicked on&#xD;
+&#xD;
+2019-11-28 19:29:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)&#xD;
+&#xD;
+2019-11-28 19:30:00 - [MESSAGE][PASSED] - Delayed 2 second(s)&#xD;
+&#xD;
+2019-11-28 19:30:00 - [TEST_STEP][FAILED] - click(findTestObject("Page_OrangeHRM/a_Logout")): Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;
+	at Logout.run(Logout:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1574949576861.run(TempTestSuite1574949576861.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;a href="/index.php/auth/logout"&gt; could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-7CAFB21', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14876, moz:profile: C:\Users\Kannan\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fccb7c20-f110-4263-a400-4601f65b2341&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;
+	at Script1574934703021.run(Script1574934703021.groovy:20)&#xD;
+	... 13 more&#xD;
+)&#xD;
+&#xD;
+2019-11-28 19:30:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;
+	at Logout.run(Logout:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1574949576861.run(TempTestSuite1574949576861.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;a href="/index.php/auth/logout"&gt; could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-7CAFB21', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14876, moz:profile: C:\Users\Kannan\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fccb7c20-f110-4263-a400-4601f65b2341&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;
+	at Script1574934703021.run(Script1574934703021.groovy:20)&#xD;
+	... 13 more&#xD;
+)&#xD;
+[[ATTACHMENT|C:\\Users\\Kannan\\Katalon Studio\\TestOrangeHRM\\Reports\\20191128_192936\\OrangeHRMSmokeTest\\20191128_192936\\1574949600987.png]]</system-out>
+            <system-err>2019-11-28 19:29:57 - [TEST_CASE][FAILED] - Test Cases/Login/Logout: Test Cases/Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Logout'&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)&#xD;
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)&#xD;
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)&#xD;
+	at Logout.run(Logout:20)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xD;
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#xD;
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#xD;
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#xD;
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#xD;
+	at TempTestSuite1574949576861.run(TempTestSuite1574949576861.groovy:35)&#xD;
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;a href="/index.php/auth/logout"&gt; could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-7CAFB21', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14876, moz:profile: C:\Users\Kannan\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fccb7c20-f110-4263-a400-4601f65b2341&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xD;
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xD;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xD;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xD;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xD;
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:28)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#xD;
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)&#xD;
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)&#xD;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xD;
+	... 19 more</system-err>
+        </testcase>
+        <system-out>2019-11-28 19:29:40 - [TEST_SUITE][INCOMPLETE] - OrangeHRMSmokeTest: null</system-out>
+        <system-err>2019-11-28 19:29:40 - [TEST_SUITE][INCOMPLETE] - OrangeHRMSmokeTest: null</system-err>
+    </testsuite>
+</testsuites>

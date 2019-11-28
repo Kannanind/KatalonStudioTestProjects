@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OrangeHRMSmokeTest,Firefox 70.0,,,2019-11-28 21:25:27,2019-11-28 21:25:51,23.334s,INCOMPLETE
+,,,,,,,
+Test Cases/Login/01_NavigateToURL,Firefox 70.0,,1,2019-11-28 21:25:28,2019-11-28 21:25:41,13.282s,PASSED
+"openBrowser("""")",Firefox 70.0,,,2019-11-28 21:25:28,2019-11-28 21:25:38,9.628s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 70.0,,,2019-11-28 21:25:38,2019-11-28 21:25:41,3.213s,PASSED
+,,,,,,,
+Test Cases/Login/02_EnterUserCrential,Firefox 70.0,,,2019-11-28 21:25:41,2019-11-28 21:25:42,1.151s,PASSED
+"setText(findTestObject(""Login/UserName""), ""Admin"")",Firefox 70.0,,,2019-11-28 21:25:42,2019-11-28 21:25:42,0.339s,PASSED
+"setText(findTestObject(""Login/UserPassword""), ""admin123"")",Firefox 70.0,,,2019-11-28 21:25:42,2019-11-28 21:25:42,0.298s,PASSED
+,,,,,,,
+Test Cases/Login/03_Click On Login,Firefox 70.0,,,2019-11-28 21:25:42,2019-11-28 21:25:46,3.413s,PASSED
+"click(findTestObject(""Login/LoginBtn""))",Firefox 70.0,,,2019-11-28 21:25:43,2019-11-28 21:25:46,2.846s,PASSED
+,,,,,,,
+Test Cases/Login/04_VerifyLoginSuccessfull,Firefox 70.0,,,2019-11-28 21:25:46,2019-11-28 21:25:46,0.353s,PASSED
+return null,Firefox 70.0,,,2019-11-28 21:25:46,2019-11-28 21:25:46,0.004s,PASSED
+,,,,,,,
+Test Cases/Login/05_Logout,Firefox 70.0,,,2019-11-28 21:25:46,2019-11-28 21:25:51,4.512s,PASSED
+delay(2),Firefox 70.0,,,2019-11-28 21:25:47,2019-11-28 21:25:49,2.189s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Welcome Admin""))",Firefox 70.0,,,2019-11-28 21:25:49,2019-11-28 21:25:50,0.423s,PASSED
+"click(findTestObject(""Page_OrangeHRM/a_Logout""))",Firefox 70.0,,,2019-11-28 21:25:50,2019-11-28 21:25:51,1.160s,PASSED
