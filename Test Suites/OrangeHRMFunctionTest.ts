@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>OrangeHRMSmokeTest</name>
+   <name>OrangeHRMFunctionTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>askannanind@gmail.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>d0e8c7b2-38bd-4a59-a166-5d8a920af679</testSuiteGuid>
+   <testSuiteGuid>4e55beb8-4539-4979-a991-3174fb31f8c5</testSuiteGuid>
    <testCaseLink>
       <guid>2fe2f592-4117-4a39-a963-dddf3180167c</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -27,17 +27,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/03_Click On Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e726073c-a549-4b7c-bf71-35157f0d947e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/04_VerifyLoginSuccessfull</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>302c42c0-81ff-487b-831f-fc6933f265f1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/05_Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

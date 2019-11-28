@@ -17,3 +17,5 @@ WebUI.setText(findTestObject('Login/UserName'), 'Admin')
 
 WebUI.setText(findTestObject('Login/UserPassword'), 'admin123')
 
+WebUI.acceptAlert()
+
